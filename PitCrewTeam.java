@@ -23,8 +23,12 @@ public class PitCrewTeam {
     public void setMembers(int members) {
         this.members = members;
     }
-
-    // Método para imprimir información sobre el equipo
+    public void Cambiollantas() {
+        System.out.println("Comenzando cambio de llanatas");
+    }
+    private void Mantenimientogeneral() {
+        System.out.println("Inicio de mantenimiento general");
+    }
     public void printInfo() {
         System.out.println("Role: " + role);
         System.out.println("Number of members: " + members);
